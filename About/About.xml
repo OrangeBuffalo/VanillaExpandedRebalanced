@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>orangeraven.vanillaexpandedrebalanced</packageId>
+	<name>Vanilla Expanded Rebalanced</name>
+	<author>Orange Raven</author>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+
+	<modDependencies>
+	</modDependencies>
+
+	<incompatibleWith>
+	</incompatibleWith>
+
+	<description>Rebalance some items from the Vanilla Expanded mod serie.</description>
+</ModMetaData>

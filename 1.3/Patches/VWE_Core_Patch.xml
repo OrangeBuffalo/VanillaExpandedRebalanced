@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Weapons Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+                <!-- Reduce work bonuses of tools -->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/equippedStatOffsets/MiningSpeed</xpath>
+                    <value>
+                        <MiningSpeed>0.05</MiningSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/equippedStatOffsets/PlantHarvestYield</xpath>
+                    <value>
+                        <PlantHarvestYield>0.05</PlantHarvestYield>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Wrench"]/equippedStatOffsets/ConstructSuccessChance</xpath>
+                    <value>
+                        <ConstructSuccessChance>0.05</ConstructSuccessChance>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Wrench"]/equippedStatOffsets/FixBrokenDownBuildingSuccessChance</xpath>
+                    <value>
+                        <FixBrokenDownBuildingSuccessChance>0.05</FixBrokenDownBuildingSuccessChance>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Wrench"]/equippedStatOffsets/ButcheryMechanoidEfficiency</xpath>
+                    <value>
+                        <ButcheryMechanoidEfficiency>0.05</ButcheryMechanoidEfficiency>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Wrench"]/equippedStatOffsets/ButcheryMechanoidSpeed</xpath>
+                    <value>
+                        <ButcheryMechanoidSpeed>0.05</ButcheryMechanoidSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Cleaver"]/equippedStatOffsets/CookSpeed</xpath>
+                    <value>
+                        <CookSpeed>0.05</CookSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Scalpel"]/equippedStatOffsets/MedicalTendQualityOffset</xpath>
+                    <value>
+                        <MedicalTendQualityOffset>0.03</MedicalTendQualityOffset>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Scalpel"]/equippedStatOffsets/MedicalPotency</xpath>
+                    <value>
+                        <MedicalPotency>0.05</MedicalPotency>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Pickaxe"]/equippedStatOffsets/MiningSpeed</xpath>
+                    <value>
+                        <MiningSpeed>0.08</MiningSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Hammer"]/equippedStatOffsets/ConstructionSpeed</xpath>
+                    <value>
+                        <ConstructionSpeed>0.08</ConstructionSpeed>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Hammer"]/equippedStatOffsets/ConstructSuccessChance</xpath>
+                    <value>
+                        <ConstructSuccessChance>0.06</ConstructSuccessChance>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Hammer"]/equippedStatOffsets/GeneralLaborSpeed</xpath>
+                    <value>
+                        <GeneralLaborSpeed>0.03</GeneralLaborSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Axe"]/equippedStatOffsets/PlantWorkSpeed</xpath>
+                    <value>
+                        <PlantWorkSpeed>0.05</PlantWorkSpeed>
+                    </value>
+                </li>
+
+                <!-- Reduce DPS and AP of melee weapons -->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Halberd"]/tools/li[label="point"]/armorPenetration</xpath>
+                    <value>
+                        <armorPenetration>0.3</armorPenetration>
+                    </value>
+                </li>
+            
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/tools/li[label="handle"]/power</xpath>
+                    <value>
+                        <power>6</power>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/tools/li[label="head"]/power</xpath>
+                    <value>
+                        <power>10</power>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_CombatKnife"]/tools/li[label="handle"]/power</xpath>
+                    <value>
+                        <power>8</power>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_CombatKnife"]/tools/li[label="blade"]/power</xpath>
+                    <value>
+                        <power>12</power>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_CombatKnife"]/tools/li[label="point"]/power</xpath>
+                    <value>
+                        <power>12</power>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Wrench"]/tools/li[label="handle"]/power</xpath>
+                    <value>
+                        <power>6</power>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Wrench"]/tools/li[label="head"]/power</xpath>
+                    <value>
+                        <power>12</power>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Cleaver"]/tools/li[label="handle"]/power</xpath>
+                    <value>
+                        <power>8</power>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Cleaver"]/tools/li[label="blade"]/power</xpath>
+                    <value>
+                        <power>12</power>
+                    </value>
+                </li>
+
+
+
+
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>

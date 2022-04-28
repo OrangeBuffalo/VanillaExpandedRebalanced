@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Factions Expanded - Vikings</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEV_LeatherArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+                    <value>
+                        <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEV_LeatherArmor"]</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MoveSpeed>-0.08</MoveSpeed>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEV_Apparel_RavagerArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+                    <value>
+                        <StuffEffectMultiplierArmor>0.50</StuffEffectMultiplierArmor>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEV_Apparel_RavagerArmor"]/equippedStatOffsets</xpath>
+                    <value>
+                        <MoveSpeed>-0.10</MoveSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEV_Apparel_LeatherHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+                    <value>
+                        <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>
