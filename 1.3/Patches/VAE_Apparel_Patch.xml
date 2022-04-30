@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Apparel Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_PeltCoat"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+                    <value>
+                        <StuffEffectMultiplierInsulation_Cold>0.9</StuffEffectMultiplierInsulation_Cold>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_TribalKilt"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+                    <value>
+                        <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_TribalKilt"]/statBases/StuffEffectMultiplierInsulation_Heat</xpath>
+                    <value>
+                        <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_TribalPoncho"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+                    <value>
+                        <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_TribalPoncho"]/statBases/StuffEffectMultiplierInsulation_Heat</xpath>
+                    <value>
+                        <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Jumpsuit"]/statBases/StuffEffectMultiplierArmor</xpath>
+                    <value>
+                        <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Jeans"]/statBases/StuffEffectMultiplierArmor</xpath>
+                    <value>
+                        <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Jeans"]/statBases/StuffEffectMultiplierArmor</xpath>
+                    <value>
+                        <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_ChefsUniform"]/statBases/StuffEffectMultiplierArmor</xpath>
+                    <value>
+                        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_MilitaryJacket"]/equippedStatOffsets/MentalBreakThreshold</xpath>
+                    <value>
+                        <MoveSpeed>-0.05</MoveSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Overalls"]/equippedStatOffsets/PlantWorkSpeed</xpath>
+                    <value>
+                        <PlantWorkSpeed>0.05</PlantWorkSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Overalls"]/equippedStatOffsets/PlantHarvestYield</xpath>
+                    <value>
+                        <PlantHarvestYield>0.05</PlantHarvestYield>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Overalls"]/equippedStatOffsets/AnimalGatherSpeed</xpath>
+                    <value>
+                        <AnimalGatherSpeed>0.05</AnimalGatherSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Overalls"]/equippedStatOffsets/AnimalGatherYield</xpath>
+                    <value>
+                        <AnimalGatherYield>0.05</AnimalGatherYield>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]/equippedStatOffsets/PlantWorkSpeed</xpath>
+                    <value>
+                        <PlantWorkSpeed>0.05</PlantWorkSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]/equippedStatOffsets/PlantHarvestYield</xpath>
+                    <value>
+                        <PlantHarvestYield>0.05</PlantHarvestYield>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]/equippedStatOffsets/AnimalGatherSpeed</xpath>
+                    <value>
+                        <AnimalGatherSpeed>0.05</AnimalGatherSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]/equippedStatOffsets/AnimalGatherYield</xpath>
+                    <value>
+                        <AnimalGatherYield>0.05</AnimalGatherYield>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_ChefsUniform"]/equippedStatOffsets/CookSpeed</xpath>
+                    <value>
+                        <CookSpeed>0.05</CookSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_ChefsUniform"]/equippedStatOffsets/ButcheryFleshSpeed</xpath>
+                    <value>
+                        <ButcheryFleshSpeed>0.05</ButcheryFleshSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_BuildersJacket"]/equippedStatOffsets/ConstructionSpeed</xpath>
+                    <value>
+                        <ConstructionSpeed>0.05</ConstructionSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_BuildersJacket"]/equippedStatOffsets/ConstructSuccessChance</xpath>
+                    <value>
+                        <ConstructSuccessChance>0.05</ConstructSuccessChance>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_BuildersJacket"]/equippedStatOffsets/FixBrokenDownBuildingSuccessChance</xpath>
+                    <value>
+                        <FixBrokenDownBuildingSuccessChance>0.05</FixBrokenDownBuildingSuccessChance>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_DoctorScrubs"]/equippedStatOffsets/MedicalSurgerySuccessChance</xpath>
+                    <value>
+                        <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_DoctorScrubs"]/equippedStatOffsets/MedicalTendQuality</xpath>
+                    <value>
+                        <MedicalTendQuality>0.05</MedicalTendQuality>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_LabCoat"]/equippedStatOffsets/ResearchSpeed</xpath>
+                    <value>
+                        <ResearchSpeed>0.05</ResearchSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_LabCoat"]/equippedStatOffsets/DrugCookingSpeed</xpath>
+                    <value>
+                        <DrugCookingSpeed>0.05</DrugCookingSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_LabCoat"]/equippedStatOffsets/DrugSynthesisSpeed</xpath>
+                    <value>
+                        <DrugSynthesisSpeed>0.05</DrugSynthesisSpeed>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/equippedStatOffsets/NegotiationAbility</xpath>
+                    <value>
+                        <NegotiationAbility>0.1</NegotiationAbility>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Jumpsuit"]/equippedStatOffsets/WorkSpeedGlobal</xpath>
+                    <value>
+                        <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Apron"]/equippedStatOffsets/WorkSpeedGlobal</xpath>
+                    <value>
+                        <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Apron"]/equippedStatOffsets/GeneralLaborSpeed</xpath>
+                    <value>
+                        <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>
