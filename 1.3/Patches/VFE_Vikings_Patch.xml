@@ -43,6 +43,37 @@
                     </value>
                 </li>
 
+                <!-- cold insulation -->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEV_Apparel_JarlCape"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+                    <value>
+                        <StuffEffectMultiplierInsulation_Cold>1.1</StuffEffectMultiplierInsulation_Cold>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEV_Apparel_RoyalFurCoat"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+                    <value>
+                        <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEV_Apparel_RavagerArmor"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+                    <value>
+                        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEV_LeatherArmor"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+                    <value>
+                        <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+                    </value>
+                </li>
+
+
             </operations>
         </match>
     </Operation>
