@@ -11,32 +11,41 @@
                 <!-- add some move speed maluses -->
 
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_AdvancedVest"]/equippedStatOffsets</xpath>
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_AdvancedVest"]</xpath>
                     <value>
-                        <MoveSpeed>-0.12</MoveSpeed>
-                    </value>
-                </li>
-
-                <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/equippedStatOffsets/MoveSpeed</xpath>
-                    <value>
-                        <MoveSpeed>-0.4</MoveSpeed>
+                        <equippedStatOffsets>
+                            <MoveSpeed>-0.12</MoveSpeed>
+                        </equippedStatOffsets>
                     </value>
                 </li>
 
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_PlateShoulderpads"]/equippedStatOffsets</xpath>
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]</xpath>
                     <value>
-                        <MoveSpeed>-0.05</MoveSpeed>
+                        <equippedStatOffsets>
+                            <MoveSpeed>-0.4</MoveSpeed>
+                        </equippedStatOffsets>
                     </value>
                 </li>
 
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_WoodenArmor"]/equippedStatOffsets</xpath>
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_PlateShoulderpads"]</xpath>
                     <value>
-                        <MoveSpeed>-0.20</MoveSpeed>
+                        <equippedStatOffsets>
+                            <MoveSpeed>-0.05</MoveSpeed>
+                        </equippedStatOffsets>
                     </value>
                 </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VAE_Apparel_WoodenArmor"]</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MoveSpeed>-0.20</MoveSpeed>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+
 
             </operations>
         </match>
