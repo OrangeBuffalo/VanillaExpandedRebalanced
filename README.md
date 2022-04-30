@@ -76,7 +76,6 @@ Rebalance stats of items in the Vanilla Expanded serie.
     * Move speed -0.05
 * Wooden armor
     * Move speed -0.20
-* 
 
 ## Vanilla Apparel Expanded
 
