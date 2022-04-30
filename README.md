@@ -42,7 +42,6 @@ Rebalance stats of items in the Vanilla Expanded serie.
 ## Vanilla Furniture Expanded
 
 * Street lamp
-    * Cost +1 component (from clean vanilla expanded)
     * Base consumption to 60 (from clean vanilla expanded)
 * Radio
     * Mood effect from 3 to 2 (from clean vanilla expanded)
@@ -55,8 +54,73 @@ Rebalance stats of items in the Vanilla Expanded serie.
 * Leather armor
     * Move speed -0.08
     * Sharp armor reduced from 0.55 to 0.45
+    * Cold insulation from 0.9 to 0.2
 * Ravager armor
     * Move speed -0.10
     * Sharp armor reduced from 0.58 to 0.50
+    * Cold insulation from 1.06 to 0.3
 * Leather helmet
     * Sharp armor reduced from 0.42 to 0.35
+* Jarl Cape
+    * Cold insulation from 1.9 to 1.1
+* Royal Fur Coat
+    * Cold insulation from 1.7 to 1.0
+
+## Vanilla Armour Expanded
+
+* Advanced vest
+    * Move speed -0.12
+* Light plate armor
+    * Move speed from -0.12 to -0.20
+* Plate shoulderpads
+    * Move speed -0.05
+* Wooden armor
+    * Move speed -0.20
+* 
+
+## Vanilla Apparel Expanded
+
+* Pelt Coat
+    * Cold insulation from 1.8 to 0.9 (still 0.3 more than duster)
+* Tribal kilt
+    * Cold insulation from 0.55 to 0.2 (same as vanilla pants)
+    * Heat insulation from 0.55 to 0.15 (still x2 vanilla pants)
+* Tribal poncho
+    * Cold insulation from 0.55 to 0.5
+    * Heat insulation from 0.55 to 0.5
+* Jumpsuit
+    * Armor reduced from 0.32 to 0.25
+    * Work speed from +10% to +5%
+* Jeans
+    * Armor reduced from 0.32 to 0.25
+* Chefs uniform
+    * Armor reduced from 0.28 to 0.2
+* Military jacket
+    * Mental break threshold -10% to -5%
+* Overalls
+    * Plant work speed from +10% to +5%
+    * Plant harvest yield from +10% to +5%
+    * Animal gather speed from +10% to +5%
+    * Animal gather yield from +10% to +5%
+* Fleece shirt
+    * Plant work speed from +10% to +5%
+    * Plant harvest yield from +10% to +5%
+    * Animal gather speed from +10% to +5%
+    * Animal gather yield from +10% to +5%
+* Chefs Uniform
+    * Cook speed from +15% to +5%
+    * Butchery speed from +10% to +5%
+* Builder's jacket
+    * Construction speed from +10% to +5%
+    * Construction success chance from +10% to +5%
+* Doctor scrubs
+    * Medical surgery success chance from +15% to +5%
+    * Medical tend quality from +10% to +5%
+* Lab coat
+    * Research speed from +10% to +5%
+    * Drug speed from +10% to +5%
+* Sheriff shirt
+    * Negotiation ability from +15% to +10%
+* Apron
+    * Work speed from +10% to +5%
+    * Labor speed from +10% to +5%
