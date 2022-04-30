@@ -30,11 +30,9 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName="VFEV_Apparel_RavagerArmor"]</xpath>
+                    <xpath>/Defs/ThingDef[defName="VFEV_Apparel_RavagerArmor"]/equippedStatOffsets</xpath>
                     <value>
-                        <equippedStatOffsets>
-                            <MoveSpeed>-0.10</MoveSpeed>
-                        </equippedStatOffsets>
+                        <MoveSpeed>-0.10</MoveSpeed>
                     </value>
                 </li>
 
