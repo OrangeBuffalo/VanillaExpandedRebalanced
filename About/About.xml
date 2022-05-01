@@ -13,5 +13,14 @@
 	<incompatibleWith>
 	</incompatibleWith>
 
-	<description>Rebalance some items from the Vanilla Expanded mod serie.</description>
+	<description>Rebalance some items from the Vanilla Expanded mod serie.
+
+Patched mods:
+  - Vanilla Furniture Expanded
+  - Vanilla Weapons Expanded
+  - Vanilla Weapons Expanded - Tribal
+  - Vanilla Factions Expanded - Vikings
+  - Vanilla Apparel Expanded
+  - Vanilla Armour Expanded
+	</description>
 </ModMetaData>
