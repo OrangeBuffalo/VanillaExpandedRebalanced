@@ -57,15 +57,9 @@
                 </li>
 
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Scalpel"]/equippedStatOffsets/MedicalTendQualityOffset</xpath>
+                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Scalpel"]/equippedStatOffsets/MedicalTendSpeed</xpath>
                     <value>
-                        <MedicalTendQualityOffset>0.03</MedicalTendQualityOffset>
-                    </value>
-                </li>
-                <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Scalpel"]/equippedStatOffsets/MedicalPotency</xpath>
-                    <value>
-                        <MedicalPotency>0.05</MedicalPotency>
+                        <MedicalTendSpeed>0.05</MedicalTendSpeed>
                     </value>
                 </li>
 
