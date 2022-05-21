@@ -35,6 +35,18 @@
                         <ComponentIndustrial>1</ComponentIndustrial>
                     </value>
                 </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Stone_Campfire"]/comps/li[@Class="CompProperties_Refuelable"]/fuelConsumptionRate</xpath>
+                    <value>
+                        <fuelConsumptionRate>5.0</fuelConsumptionRate>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Stone_Campfire"]/comps/li[@Class="CompProperties_HeatPusher"]/heatPerSecond</xpath>
+                    <value>
+                        <heatPerSecond>15</heatPerSecond>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>
