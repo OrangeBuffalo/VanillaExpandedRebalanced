@@ -34,7 +34,7 @@ Rebalance stats of items in the Vanilla Expanded serie.
 * Combat knife
     * DPS from 8.29 (between spear and longsword) to 7.09 (between shiv and gladius)
 * Crossbow
-    * Reduced armor penetration from 0.86 to 0.20
+    * Reduced armor penetration from 66% to 20%
 
 ## Vanilla Weapons Expanded - Tribal
 
@@ -138,7 +138,7 @@ Rebalance stats of items in the Vanilla Expanded serie.
 
 * Heavy crossbow
     * Increased range from 18 to 24
-    * Reduced armor penetration from ~80% to 25%
+    * Reduced armor penetration from 86% to 25%
     * Reduced damage to 22
 * Claymore
     * Increased weight to 2.0
