@@ -33,6 +33,8 @@ Rebalance stats of items in the Vanilla Expanded serie.
     * Plant work speed from +33% to +5%
 * Combat knife
     * DPS from 8.29 (between spear and longsword) to 7.09 (between shiv and gladius)
+* Crossbow
+    * Reduced armor penetration from 0.86 to 0.20
 
 ## Vanilla Weapons Expanded - Tribal
 
@@ -48,6 +50,9 @@ Rebalance stats of items in the Vanilla Expanded serie.
 * Modern chair
     * Comfort to 0.9 (from clean vanilla expanded)
     * Cost +1 component (from clean vanilla expanded)
+* Stone campfire
+    * Reduced fuel consumption rate by 50% (half of normal campfire)
+    * Reduced heat/second by ~25%
 
 ## Vanilla Factions Expanded - Vikings
 
@@ -123,3 +128,39 @@ Rebalance stats of items in the Vanilla Expanded serie.
 * Apron
     * Work speed from +10% to +5%
     * Labor speed from +10% to +5%
+
+## Vanilla Factions Expanded - Classical
+
+* Large passive cooler
+    * Increased min. temperature from -5° C to 12° C
+
+## Vanilla Factions Expanded - Medieval
+
+* Heavy crossbow
+    * Increased range from 18 to 24
+    * Reduced armor penetration from ~80% to 25%
+    * Reduced damage to 22
+* Claymore
+    * Increased weight to 2.0
+* Heavy mace
+    * Increased weight to 2.0
+
+## Vanilla Furniture Expanded - Medical Module
+
+* Surgical table
+    * Removed cleanliness malus
+* Research counter
+    * Increased construction cost (+ 10 gold)
+
+## Vanilla Furniture Expanded - Production Module
+
+* Large machining table
+    * Reduced work speed from 150% to 125%
+* Large smithy table
+    * Reduced work speed from 150% to 125%
+* Large stove table
+    * Reduced work speed from 150% to 125%
+* Large tailor table
+    * Reduced work speed from 150% to 125%
+* Electric stone cutter table
+    * Reduced work speed from 150% to 125%
