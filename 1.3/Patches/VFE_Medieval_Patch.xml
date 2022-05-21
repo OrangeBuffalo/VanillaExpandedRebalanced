@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Factions Expanded - Medieval</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEM_MeleeWeapon_Claymore"]/statBases/Mass</xpath>
+                    <value>
+                        <Mass>2.0</Mass>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEM_MeleeWeapon_HeavyMace"]/statBases/Mass</xpath>
+                    <value>
+                        <Mass>2.0</Mass>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEM_Bow_HeavyCrossbow"]/verbs/li/range</xpath>
+                    <value>
+                        <range>24.0</range>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEM_Arrow_HeavyBolt"]/projectile/armorPenetrationBase</xpath>
+                    <value>
+                        <armorPenetrationBase>0.25</armorPenetrationBase>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEM_Arrow_HeavyBolt"]/projectile/damageAmountBase</xpath>
+                    <value>
+                        <damageAmountBase>22.0</damageAmountBase>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>
