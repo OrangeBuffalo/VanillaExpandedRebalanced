@@ -10,6 +10,12 @@
                 <li Class="PatchOperationRemove">
                     <xpath>/Defs/ThingDef[defName="Bed_OperatingTable"]/statBases/Cleanliness</xpath>
                 </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Facility_ResearchCounter"]/costList</xpath>
+                    <value>
+                        <Gold>10</Gold>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>
